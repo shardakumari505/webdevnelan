@@ -38,45 +38,13 @@ const Navbar = () => {
                     <nav>                        
                         <ul id='menu-list' className= {MenuList===true?'menu-list':'menu-list-closed'}>
                             <li>
-                                <Link
-                                    activeClass="active"
-                                    to="imageslider"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={500}
-                                >
-                                    Home
-                                </Link>
+                                <NavLink className='' to="/">Home</NavLink>
                             </li>
                             <li>
-                                
-                                <Link
-                                    activeClass="active"
-                                    to="blog"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={500}
-                                    
-                                >
-                                    Blog
-                                </Link>
+                                <NavLink className='' to="/techblog">Tech Blogs</NavLink>
                             </li>
                             <li>
-                                <NavLink className='' to="/Share">loginblog</NavLink>
-                            </li>
-                            <li>
-                                <Link
-                                    activeClass="active"
-                                    to="explore"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={500}
-                                >
-                                    Explore
-                                </Link>
+                                <NavLink className='' to="/userrooms">Rooms</NavLink>
                             </li>
                             <li>
                                 <Link
@@ -87,8 +55,11 @@ const Navbar = () => {
                                     offset={-70}
                                     duration={500}
                                 >
-                                    About Us
+                                    Repos
                                 </Link>
+                            </li>
+                            <li>
+                                <NavLink className='' to="/codeeditor">Code Editor</NavLink>
                             </li>
                             <li>
                                 <Link
@@ -99,7 +70,7 @@ const Navbar = () => {
                                     offset={-70}
                                     duration={500}
                                 >
-                                    Contact
+                                    Friends
                                 </Link>
                             </li>
                     

@@ -25,7 +25,7 @@ function SigninForm() {
                 <label className='signin-password-label'>Password</label>
                 <input className='signin-password-input'  type='password' name='password' id='current-password' required></input>
                 <label className='signin-checkbox-label'><input className='signin-checkbox-input' type="checkbox"/> Remember me</label>
-                <button className='signin-submit-button' onClick={clickHandler} type='submit'> Login </button>
+                <button className='signin-submit-button' onClick={clickHandler} type='submit'><NavLink className='user-home-button-text' to="/userhome">Login</NavLink> </button>
                 <p className='signin-forget-password'> Forgot Password? </p>
             </form>
         </div>);

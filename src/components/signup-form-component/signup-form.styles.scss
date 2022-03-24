@@ -8,8 +8,11 @@
     justify-content: center;
     text-align: center;
     background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #010a17, #151a70, #2c24ad);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #010a17, #151a70, #2c24ad); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // background: -webkit-linear-gradient(to right, #010a17, #151a70, #2c24ad);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to right, #010a17, #151a70, #2c24ad); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: transparent;
+    box-shadow: 5px 3px 5px 3px #2C2828;
+    backdrop-filter: blur(8px);
     float: right;
     border: none;
     border-radius: 50px;

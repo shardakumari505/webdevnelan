@@ -1,0 +1,98 @@
+.ShareBlogpage {
+    width: 100%;
+    height: 80vh;
+    /*padding: 6rem 1rem;*/
+    background-color: white;
+}
+.blog-text-input{
+    height: 30vh;
+    width: 100%;
+    display: grid;
+}
+.blog-share{
+    height: 33vh;
+    width: 98.9%;
+    display: flex;
+    resize: none;
+    border: 8px solid gray;
+    outline: none;
+}
+.blog-share:hover{
+    outline: none;
+}
+.blog-share-bottom{
+    height: 8vh;
+    width: 98.9%;
+    background-color: gray;
+    border: 8px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-bottom-submit{
+    margin-right: 2vw;
+}
+.blog-share-more-options{
+    display: flex;
+    flex-direction: row;
+}
+.blog-share-more-options:hover{
+    .blog-share-more-before{
+        background-color: #fff;
+    }
+    .blog-share-more-after{
+        height: 3vw;
+        width: 6vw;
+        background-color: #fff;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+}
+.blog-share-more-before{
+    height: 3vw;
+    width: 3vw;
+    margin-left: 2vw;
+    background-color: #fff;
+    border-radius: 1.5vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.blog-share-more-img{
+    height: 2vw;
+    width: 2vw;
+}
+.blog-share-more-after{
+    display: flex;
+    flex-direction: row;
+    margin-left: -3vw;
+}
+.blog-share-more-after1{
+    height: 3vw;
+    width: 6vw;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.blog-share-more-after2{
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    
+    border-right:25px solid gray;
+    margin-left: -1.6vw;
+}
+.blog-submit-button{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 20px;
+    background-color: #0D66D0;
+    color: #fff;
+    border: none;
+    transition: all 1s;
+    cursor: pointer;
+}
+.blog-submit-button:hover{
+    transform:scale(1.1);
+}

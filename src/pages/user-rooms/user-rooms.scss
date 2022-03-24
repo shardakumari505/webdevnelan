@@ -1,0 +1,144 @@
+.user-room-page{
+    height: auto;
+    width: 100%;
+    // background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.user-room-left{
+    height: auto;
+    width: 70%;
+    // background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+.user-room-left-wish{
+    margin-left: 5%;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user-room-left-wish-text{
+    font-size: 1.7rem;
+    // background-color: aquamarine;
+}
+.user-room-left-wish-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+.user-room-top-button-options{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d66d0;
+    margin-right: 2vw;
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.user-home-left-button-options:hover{
+    transform: scale(1.1);
+    border: 2px solid aliceblue;
+}
+.user-room-left-chat-space{
+    margin-top: 5vh;
+    height: 55vh;
+    width: 100%;
+    // background-color: palevioletred;
+    margin-left: 5%;
+}
+.user-room-left-chat-title{
+    font-size: 1.7rem;
+}
+.user-room-left-chat-card{
+    margin-top: 2vh;
+    height: 50vh;
+    width: 95%;
+    background-color: gray;
+}
+.user-room-left-bottom-options{
+    height: 8vh;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 5vh;
+    border-radius: 30px;
+    align-items: center;
+    background-color: gray;
+    justify-content: space-around;
+}
+.user-room-left-button-options{
+    height: 5vh;
+    width: 15vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d66d0;
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.user-room-right{
+    height: auto;
+    width: 30%;
+    // background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.user-room-task-remaining{
+    height: 35vh;
+    margin-top: 30vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    // background-color: salmon;
+}
+.user-room-task-remaining-title{
+    font-size: 1.5rem;
+}
+.user-room-task-remaining-card{
+    margin-top: 2vh;
+    height: 24vh;
+    width: 12vw;
+    border-radius: 20px;
+    background-color: gray;
+}
+.user-room-music-player{
+    height: 35vh;
+    margin-top: 10vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    // background-color: salmon;
+}
+.user-room-music-player-title{
+    font-size: 1.5rem;
+}
+.user-room-music-player-card{
+    margin-top: 2vh;
+    height: 24vh;
+    width: 12vw;
+    border-radius: 20px;
+    background-color: gray;
+}
