@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "./to-do.scss";
 import TodoHeader from './TodoHeader';
 import TodoForm from "./TodoForm";
+import TodosList from './TodosList';
 
 const ToDo = () =>{
 
@@ -20,6 +21,9 @@ const ToDo = () =>{
                 todos = {todos}
                 setTodos = {setTodos}
                 />
+            </div>
+            <div>
+                <TodosList todos={todos} setTodos={setTodos} />
             </div>
         </div>
     </div>);
