@@ -24,10 +24,8 @@ const UserRooms = () => {
             </div>
         </div>
         <div className='user-room-right'>
-            <div className='user-room-task-remaining'>
-                <div className='user-room-task-remaining-title'>Tasks Remaining</div>
-                <div className='user-room-task-remaining-card'><ToDo /></div>
-            </div>
+            <div className='user-room-task-remaining'><ToDo /></div>
+            
             <div className='user-room-music-player'>
                 <div className='user-room-music-player-title'>Music Player</div>
                 <div className='user-room-music-player-card'></div>

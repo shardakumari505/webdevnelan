@@ -93,7 +93,7 @@
 .user-room-right{
     height: auto;
     width: 30%;
-    // background-color: bisque;
+    background-color: bisque;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -101,7 +101,7 @@
     margin-bottom: 10vh;
 }
 .user-room-task-remaining{
-    height: 50vh;
+    height: 60vh;
     margin-top: 20vh;
     width: 28vw;
     display: flex;
@@ -114,23 +114,15 @@
 .user-room-task-remaining-title{
     font-size: 1.5rem;
 }
-.user-room-task-remaining-card{
-    margin-top: 2vh;
-    height: 40vh;
-    width: 26vw;
-    border-radius: 20px;
-    background-color: gray;
-}
 .user-room-music-player{
     height: 35vh;
-    margin-top: 2vh;
     width: 20vw;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    // background-color: salmon;
+    background-color: palegreen;
 }
 .user-room-music-player-title{
     font-size: 1.5rem;
