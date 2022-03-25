@@ -1,11 +1,21 @@
 import React from 'react';
 import './code-editor.scss';
+import { Controlled as CodeMirror } from "react-codemirror2";
+import "codemirror/lib/codemirror.css";
+
+// Themes
+import "codemirror/theme/material.css";
+import "codemirror/theme/monokai.css";
+import "codemirror/theme/nord.css";
+import "codemirror/theme/ambiance.css";
+import "codemirror/theme/eclipse.css";
+ 
 
 
 const CodeEditor = () => {
-    return (
-    <div className='code-editor-page'>
-        <div className='code-editor-first-part'>
+    return (<div>
+
+            <div className='code-editor-first-part'>
             <div className='code-editor-first-part-left'>
                 <div className='code-editor-first-part-left-options'>File</div>
                 <div className='code-editor-first-part-left-options'>Run</div>
@@ -34,7 +44,7 @@ const CodeEditor = () => {
                     <div className='code-editor-audio-call'>Audio Call</div>
                 </div>
             </div>
-        </div>
+    </div> 
     </div>)
 }
 
