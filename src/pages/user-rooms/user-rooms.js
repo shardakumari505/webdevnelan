@@ -1,5 +1,6 @@
 import React from 'react';
 import './user-rooms.scss';
+import ToDo from '../../components/to-do-list/to-do';
 
 
 const UserRooms = () => {
@@ -25,7 +26,7 @@ const UserRooms = () => {
         <div className='user-room-right'>
             <div className='user-room-task-remaining'>
                 <div className='user-room-task-remaining-title'>Tasks Remaining</div>
-                <div className='user-room-task-remaining-card'></div>
+                <div className='user-room-task-remaining-card'><ToDo /></div>
             </div>
             <div className='user-room-music-player'>
                 <div className='user-room-music-player-title'>Music Player</div>
