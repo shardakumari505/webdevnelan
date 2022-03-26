@@ -20,19 +20,7 @@ const ImageSlider = () => {
             className="home-image-3" 
             src='https://images.unsplash.com/photo-1647119126202-d13a4263d40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' 
             alt="Cover Image 1"/>        */}
-          <div className="home-page-text">
-            <h1 className="home-text-title">{loggedIn === true?'Dhanyawad, Toh chaliye shuru krte hai :)':'Abe Phle Login toh Kar...!!!!'}</h1>
-            {/* <h1 className="home-text-subtitle-1">Has Became Easy</h1>
-            <h3 className="home-text-subtitle-2">with COMPANY</h3> */}
-            <button className="home-start-button">Start Now</button>
-          </div>
-          <div className="home-page-lottie-animation"><lottie-player
-            src="https://assets5.lottiefiles.com/packages/lf20_oyi9a28g.json"
-            background="transparent"
-            speed="2"
-            loop
-            autoplay
-          ></lottie-player></div>
+          
          </div>)
 }
 export default ImageSlider;

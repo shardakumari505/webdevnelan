@@ -11,6 +11,7 @@ import SignupPage from './pages/signup-page/signup-page';
 import UserHomePage from './pages/user-home/user-home-page';
 import UserRooms from './pages/user-rooms/user-rooms';
 import CodeEditor from './pages/code-editor/code-editor';
+import Collab from './components/features/collab.components'
 import Share from './pages/user-blog-page/Share';
 import ToDo from './components/to-do-list/to-do';
 import {UserProvider} from './userauth';
@@ -35,10 +36,11 @@ class App extends Component {
                   <Route path="/userhome" element={<UserHomePage/>} />
                   <Route path="/userrooms" element={<UserRooms/>} />
                   <Route path="/codeeditor" element={<CodeEditor/>} />
+                  <Route path="/collab" element={<Collab/>} />
                   <Route path="/techblog" element={<Share/>} />
                   <Route path="/todo" element={<ToDo/>} />
               </Routes>
-              {/* <Footer /> */}
+              <Footer />
           </Router>
         </UserProvider>     
       

@@ -1,0 +1,42 @@
+.todo-component-home-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.todo-component-left{
+    height: 100vh;
+    width: 50%;
+    margin-left: 2%;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    // position: absolute;
+    // top: 10vh;
+    align-items: left;
+    text-align: left;
+    justify-content: center;
+    color: var(--textcol);
+    // background-color: aqua;
+}
+.todo-left-text{
+    font-size: 3.3rem;
+    line-height: 12vh;
+}
+.todo-component-left p{
+    margin-top: 1vh;
+    font-size: 1.2rem;
+    line-height: 4vh;
+}
+.todo-component-right{
+    height: 100vh;
+    width: 50%;
+    // background-color: aquamarine;
+}
+.todo-component-lottie-animation{
+    width: 100%;
+    height: 60vh;
+    margin-top: 20vh;
+    // background-color: aquamarine;
+}

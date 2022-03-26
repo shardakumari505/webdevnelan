@@ -3,7 +3,7 @@ html{
   padding:0px;
 }
 :root{
-  --textcol:white;
+  --textcol:#F8F8FF;
   --backgroundcol:#000222;
   --darktext:black;
   --backgroundlight:white;

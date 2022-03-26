@@ -6,7 +6,7 @@
 
 .footer-container{
     width: 100%;
-    height:10vh;
+    height:40vh;
     position: absolute;
     display: flex;
     align-items: center;
@@ -14,8 +14,11 @@
     z-index: 999;    
     background: var(--backgroundcol);
 }
-.footer-container p{
-    color: var(--textcol);
-    
-    // padding-left: 20px;
+.footer-container-left{
+    height: 40vh;
+    width: 50%;
+}
+.footer-container-left{
+    height: 40vh;
+    width: 50%;
 }
