@@ -1,5 +1,5 @@
 .user-room-page{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: #000222;
     background-image: 
@@ -13,4 +13,152 @@
     width: 100%;
     margin-top: 10vh;
     background-color: paleturquoise;
+}
+.user-room-your-chamber{
+    height: 10vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu-icon-divs{
+    height: 10vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu-icon-img{
+    height: 8vh;
+    width: 3vw;
+}
+.user-room-chamber-title{
+    font-size: 2rem;
+}
+.user-room-bottom-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.user-room-left{
+    height: 80vh;
+    width: 20%;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--textcol);
+    // background-color: palegreen;
+}
+.user-room-your-task-card{
+    height: 70vh;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 2.5vh;
+    background-color: gray;
+}
+.user-room-centre{
+    height: 80vh;
+    width: 50%;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--textcol);
+    // background-color: azure;
+}
+.user-room-chat-card{
+    height: 70vh;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+.user-room-chat-card-top{
+    height: 10vh;
+    width: 100%;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.user-room-chat-card-options{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 1.5vw;
+    margin-right: 8px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-room-chat-card-options-img{
+    height: 3vw;
+    width: 2vw;
+    object-fit: contain;
+}
+.user-room-chat-card-centre{
+    height: 50vh;
+    width: 100%;
+    background-color: gray;
+}
+.user-room-chat-card-bottom{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: paleturquoise;
+}
+.user-room-chat-card-bottom-options{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 1.5vw;
+    margin-right: 8px;
+    // background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-room-chat-card-bottom-options-img{
+    height: 3vw;
+    width: 2vw;
+    object-fit: contain;
+}
+.user-room-chat-card-bottom-button-options{
+    height: 35px;
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d66d0;
+}
+.user-room-right{
+    height: 80vh;
+    width: 20%;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--textcol);
+    // background-color: palegreen;
+}
+.user-room-member-card{
+    height: 70vh;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 2.5vh;
+    text-align: center;
+    background-color: gray;
 }

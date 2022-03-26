@@ -34,6 +34,18 @@
     align-items: center;
     color: var(--textcol);
 }
+.code-editor-first-part-right-close-button{
+    height: 5vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close-editor-right-button-img{
+    height: 3vh;
+    width: 5vw;
+    object-fit: contain;
+}
 .code-editor-second-part{
     height: auto;
     width: 100%;
@@ -133,7 +145,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #0d66d0;
+    background-color: orange;
     margin-right: 2vw;
     border-radius: 20px;
     transition: all 1s;
@@ -148,7 +160,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #0d66d0;
+    background-color: orange;
     margin-right: 2vw;
     border-radius: 20px;
     transition: all 1s;

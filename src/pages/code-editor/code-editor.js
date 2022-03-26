@@ -1,5 +1,7 @@
 import React from 'react';
 import './code-editor.scss';
+import { NavLink } from 'react-router-dom';
+import UserRooms from '../user-rooms/user-rooms';
 import { Controlled as CodeMirror } from "react-codemirror2";
 import "codemirror/lib/codemirror.css";
 
@@ -22,7 +24,10 @@ const CodeEditor = () => {
                 <div className='code-editor-first-part-left-options'>Add Members</div>
                 <div className='code-editor-first-part-left-options'>Remove Members</div>
             </div>
-            <div className='code-editor-first-part-right'>close editor</div>
+            <div className='code-editor-first-part-right'>
+                <div className='code-editor-first-part-right-text'>Close editor</div>
+                <div className='code-editor-first-part-right-close-button'><img className='close-editor-right-button-img' src='https://cdn-icons-png.flaticon.com/512/1828/1828665.png' /></div>
+            </div>
         </div>
         <div className='code-editor-second-part'>
             <div className='code-editor-left'>
