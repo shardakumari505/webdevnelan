@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: row;
     background-color: #111927;
     background-image: 
         radial-gradient(at 47% 33%, hsl(144.74, 100%, 38%) 0, transparent 59%), 
@@ -45,7 +46,7 @@
 .home-page-text{
     z-index: 10;
     height: 90vh;
-    width: 50%;
+    width: 48%;
     margin-left: 2%;
     padding-left: 5vw;
     display: flex;
@@ -56,7 +57,7 @@
     text-align: left;
     justify-content: center;
     color: var(--textcol);
-    // background-color: aqua;
+    background-color: aqua;
     
 }
 .home-start-button{
@@ -76,4 +77,8 @@
 }
 .home-text-subtitle-2{
     font-size: 2rem;
+}
+.home-page-lottie-animation{
+    width: 50%;
+    background-color: aquamarine;
 }

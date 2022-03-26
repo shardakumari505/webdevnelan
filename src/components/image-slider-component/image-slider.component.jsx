@@ -26,6 +26,13 @@ const ImageSlider = () => {
             <h3 className="home-text-subtitle-2">with COMPANY</h3> */}
             <button className="home-start-button">Start Now</button>
           </div>
+          <div className="home-page-lottie-animation"><lottie-player
+            src="https://assets5.lottiefiles.com/packages/lf20_oyi9a28g.json"
+            background="transparent"
+            speed="2"
+            loop
+            autoplay
+          ></lottie-player></div>
          </div>)
 }
 export default ImageSlider;
