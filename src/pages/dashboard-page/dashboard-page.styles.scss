@@ -1,6 +1,10 @@
 .dashboard-page-container{
     display: flex;
     flex-direction: column;
+    background-color: #000222;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(265.71, 62%, 15%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(237.62, 100%, 19%) 0, transparent 55%);
 }
 span{
     height: 100vh;

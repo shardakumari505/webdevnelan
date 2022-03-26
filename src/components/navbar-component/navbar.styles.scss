@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant:ital,wght@1,300;1,400;1,500&family=Montserrat:wght@300;400;500&display=swap');
 *{
     margin:0px;
     padding: 0;
@@ -5,8 +6,9 @@
 }
 
 .navbar-container{
-    width: 100%;
+    width: 90%;
     height:10vh;
+    margin-left: 5%;
     display: flex;
     align-items: center;
     position: fixed;
@@ -18,6 +20,7 @@
 .navbar-container h1{
     color: var(--textcol);
     padding-left: 20px;
+    font-family: Archivo Black;
 }
 nav{
     flex: 1;

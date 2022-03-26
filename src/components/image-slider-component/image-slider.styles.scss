@@ -2,15 +2,19 @@
     height: 100vh;
     width: 100%;
     display: flex;
+    background-color: #111927;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(144.74, 100%, 38%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
 }
-.home-image-1{
-    height:100vh;
-    width: 100%;
-    object-fit: cover;
-    // position: absolute;
-    // top: 10vh;
-    left: 0;
-}
+// .home-image-1{
+//     height:100vh;
+//     width: 100%;
+//     object-fit: cover;
+//     // position: absolute;
+//     // top: 10vh;
+//     left: 0;
+// }
 // .home-image-1{
 //     z-index: 3;
 //     animation-delay: 10s;
@@ -42,6 +46,7 @@
     z-index: 10;
     height: 90vh;
     width: 50%;
+    margin-left: 2%;
     padding-left: 5vw;
     display: flex;
     flex-direction: column;
@@ -51,6 +56,7 @@
     text-align: left;
     justify-content: center;
     color: var(--textcol);
+    // background-color: aqua;
     
 }
 .home-start-button{

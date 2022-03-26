@@ -12,14 +12,18 @@
     align-items: center;
 }
 .app-wrapper{
-    background-color: #12343b;
     min-width: 450px;
     height: 60vh;
     padding: 30px;
     box-sizing: border-box;
-    border-radius: 10px;
-    box-shadow: 5px 10px 50px #000;
+    box-shadow:  25px -25px 49px #094d30,
+             -25px 25px 49px #0d6940;
     margin-bottom: 10px;
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.47);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .header h1{
     color: #fff;

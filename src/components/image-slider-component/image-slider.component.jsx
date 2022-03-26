@@ -7,10 +7,10 @@ const ImageSlider = () => {
 
     
     return(<div id="imageslider">
-        <img
+        {/* <img
             className="home-image-1" 
             src='https://images.unsplash.com/photo-1610123598195-eea6b6be4c48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80' 
-            alt="Cover 1"/>
+            alt="Cover 1"/> */}
          {/* <img
             className="home-image-2" 
             src='https://images.unsplash.com/photo-1647163927506-399a13f9f908?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80' 
