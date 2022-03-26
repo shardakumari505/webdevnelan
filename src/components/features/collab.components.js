@@ -18,7 +18,8 @@ const Collab =() =>{
 while still respecting their preferences</p>
             <ul>
                 <li>Share link with friends</li>
-                <li>Live connect with other Collaborators via Text Messages , Audio Calls or Video Calls</li>
+                <li>Live connect with other Collaborators via Text Messages , Audio Calls and Video Calls</li>
+                <li>Code Together</li>
             </ul>
         </div>
     </div>);

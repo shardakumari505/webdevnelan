@@ -1,13 +1,14 @@
 import React from 'react';
 import './user-rooms.scss';
 import ToDo from '../../components/to-do-list/to-do';
+import Music from '../../components/music-player/music-player';
 
 
 const UserRooms = () => {
     return (
     <div className='user-room-page'>
         <div className='user-room-music-player'>
-
+        <Music/>
         </div>
         <div className='user-room-your-chamber'>
             <div className='hamburger-menu-icon-divs'><img className='hamburger-menu-icon-img' src='https://cdn-icons.flaticon.com/png/512/2613/premium/2613045.png?token=exp=1648335248~hmac=83284de1f90e8e9389f3280cd7c58ae9' /></div>
