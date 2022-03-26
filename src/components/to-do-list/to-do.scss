@@ -12,12 +12,13 @@
     align-items: center;
 }
 .app-wrapper{
-    min-width: 450px;
+    min-width: 430px;
     height: 60vh;
     padding: 30px;
     box-sizing: border-box;
-    box-shadow:  25px -25px 49px #094d30,
-             -25px 25px 49px #0d6940;
+    // box-shadow:  25px -25px 49px #094d30,
+    //          -25px 25px 49px #0d6940;
+    box-shadow: 5px 10px 50px #000;
     margin-bottom: 10px;
     backdrop-filter: blur(25px) saturate(200%);
     -webkit-backdrop-filter: blur(25px) saturate(200%);
@@ -32,7 +33,7 @@
 }
 .task-input{
     outline: none;
-    width: 260px;
+    width: 220px;
     padding: 15px;
     margin-right: 25px;
     font-size: 20px;
@@ -54,13 +55,14 @@
     overflow-y: scroll;
     margin-top: 2vh;
     height: 30vh;
+    width: 25vw;
 }
 .list-item{
     display: flex;
     margin: 20px 0;
     border: 1px solid #ccc;
     padding: 10px;
-    width: 22.5vw;
+    width: 20vw;
     max-height: 30px;
 }
 
@@ -96,7 +98,7 @@
 }
 
 .list{
-    width: 220px;
+    width: 150px;
     background-color: #12343b;
     border: none;
     color: #ccc;

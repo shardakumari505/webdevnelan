@@ -32,7 +32,7 @@ const TodoForm =({input, setInput, todos, setTodos, editTodo, setEditTodo}) =>{
         }
     }
     return(<form onSubmit={onFormSubmit}>
-        <input type="text" placeholder="Enter a Todo..." className='task-input' value={input} required onChange={onInputChange} />
+        <input type="text" placeholder="Enter a Task" className='task-input' value={input} required onChange={onInputChange} />
         <button className='button-add' type="submit">
             {editTodo ? "OK" : "Add"}
         </button>

@@ -9,18 +9,15 @@ const UserRooms = () => {
         <div className='user-room-left'>
             <div className='user-room-left-wish'>
                 <div className='user-room-left-wish-text'>User's Rooms</div>
-                <div className='user-room-left-wish-card'>
-                    <div className='user-room-top-button-options'>Open Code Editor</div>
-                </div>
             </div>
             <div className='user-room-left-chat-space'>
                 <div className='user-room-left-chat-title'>Chat Space</div>
                 <div className='user-room-left-chat-card'></div>
             </div>
             <div className='user-room-left-bottom-options'>
-                    <div className='user-room-left-button-options'>Video Call</div>
-                    <div className='user-room-left-button-options'>Present Screen</div>
-                    <div className='user-room-left-button-options'>Audio Call</div>
+                    <div className='user-room-left-button-options'><img className='user-room-left-button-img' src="https://cdn-icons-png.flaticon.com/512/1159/1159798.png" /></div>
+                    <div className='user-room-left-button-options'><img className='user-room-left-button-img' src="https://cdn-icons.flaticon.com/png/512/3793/premium/3793636.png?token=exp=1648329031~hmac=22d16b04400a09d797a233d41c3a8b08" /></div>
+                    <div className='user-room-left-button-options'><img className='user-room-left-button-img' src="https://cdn-icons.flaticon.com/png/512/5124/premium/5124626.png?token=exp=1648329081~hmac=314a46a0771f00d17500a29164f61671" /></div>
             </div>
         </div>
         <div className='user-room-right'>

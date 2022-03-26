@@ -6,7 +6,7 @@
 
 .footer-container{
     width: 100%;
-    height:40vh;
+    height:10vh;
     position: absolute;
     display: flex;
     align-items: center;
@@ -15,10 +15,30 @@
     background: var(--backgroundcol);
 }
 .footer-container-left{
-    height: 40vh;
+    height: 10vh;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    // background-color: aqua;
 }
-.footer-container-left{
-    height: 40vh;
+.footer-container-right{
+    height: 10vh;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    // background-color: aquamarine;
+}
+.footer-container-left-title{
+    color: var(--textcol);
+    font-family: Archivo Black;
+    font-size: 1rem;
+}
+.footer-container-right-subtitle{
+    color: var(--textcol);
+    font-family: Archivo Black;
+    font-size: 1rem;
 }

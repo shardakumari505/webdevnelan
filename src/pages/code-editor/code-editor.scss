@@ -2,10 +2,10 @@
     height: auto;
     width: 100%;
     margin-top: 0px;
-    background-color: #111927;
+    background-color: #000222;
     background-image: 
-    radial-gradient(at 47% 33%, hsl(144.74, 100%, 38%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+        radial-gradient(at 47% 33%, hsl(265.71, 62%, 15%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(237.62, 100%, 19%) 0, transparent 55%);
     display: flex;
     flex-direction: column;
 }
@@ -26,11 +26,13 @@
 }
 .code-editor-first-part-left-options{
     margin-right: 2vw;
+    color: var(--textcol);
 }
 .code-editor-first-part-right{
     margin-right: 2vw;
     display: flex;
     align-items: center;
+    color: var(--textcol);
 }
 .code-editor-second-part{
     height: auto;
@@ -105,6 +107,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    color: var(--textcol);
     // background-color: salmon;
 }
 .code-editor-message-title{

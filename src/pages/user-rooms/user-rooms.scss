@@ -2,21 +2,22 @@
     height: auto;
     width: 100%;
     background-color: aqua;
-    background-color: #111927;
+    background-color: #000222;
     background-image: 
-    radial-gradient(at 47% 33%, hsl(144.74, 100%, 38%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+        radial-gradient(at 47% 33%, hsl(265.71, 62%, 15%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(237.62, 100%, 19%) 0, transparent 55%);
     display: flex;
     flex-direction: row;
+    // padding: 2px 25px;
 }
 .user-room-left{
     height: auto;
-    width: 70%;
-    margin-left: 3%;
+    width: 68%;
     // background-color: aquamarine;
     display: flex;
     flex-direction: column;
     margin-bottom: 10vh;
+    padding: 2px 4vw;
 }
 .user-room-left-wish{
     margin-left: 5%;
@@ -28,13 +29,10 @@
 }
 .user-room-left-wish-text{
     font-size: 1.7rem;
+    color: var(--textcol);
     // background-color: aquamarine;
 }
-.user-room-left-wish-card{
-    display: flex;
-    flex-direction: row;
-    margin-top: 2vh;
-}
+
 .user-room-top-button-options{
     height: 5vh;
     width: 10vw;
@@ -63,6 +61,7 @@
 }
 .user-room-left-chat-title{
     font-size: 1.7rem;
+    color: var(--textcol);
 }
 .user-room-left-chat-card{
     margin-top: 2vh;
@@ -72,7 +71,7 @@
 }
 .user-room-left-bottom-options{
     height: 8vh;
-    width: 90%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     margin-left: 5%;
@@ -83,28 +82,33 @@
     justify-content: space-around;
 }
 .user-room-left-button-options{
-    height: 5vh;
-    width: 15vw;
+    height: 8vh;
+    width: 20%;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #0d66d0;
-    border-radius: 20px;
+    background-color: #fff;
+    border-radius: 25px;
     transition: all 1s;
     cursor: pointer;
     outline: none;
     border: none;
 }
+.user-room-left-button-img{
+    height: 5vh;
+    width: 2.5vw;
+}
 .user-room-right{
     height: auto;
-    width: 30%;
+    width: 50%;
     // background-color: bisque;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     margin-bottom: 10vh;
+    padding: 2px 30px;
 }
 .user-room-task-remaining{
     height: 60vh;
@@ -124,7 +128,7 @@
 }
 .user-room-music-player{
     height: 40vh;
-    width: 100%;
+    width: 70%;
     margin-top: 5vh;
     margin-right: 5%;
     display: flex;
