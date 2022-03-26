@@ -5,6 +5,7 @@ import Collab from '../../components/features/collab.components';
 import TodoComponent from '../../components/features/todo.components';
 import BlogComponent from '../../components/features/blog.components';
 import RoomsComponents from '../../components/features/rooms.components';
+import Footer from '../../components/footer-component/footer.component';
 
 const Dashboard = () => {
   const [loggedIn,setloggedIn] = useContext(UserContext);
@@ -26,6 +27,7 @@ const Dashboard = () => {
       <div className=''><TodoComponent /></div>
       <div className=''><RoomsComponents /></div>
       <div className=''><BlogComponent /></div>
+      <div className=''><Footer /></div>
        
          
      </div>

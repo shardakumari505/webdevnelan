@@ -40,7 +40,7 @@ class App extends Component {
                   <Route path="/techblog" element={<Share/>} />
                   <Route path="/todo" element={<ToDo/>} />
               </Routes>
-              <Footer />
+              {/* <Footer /> */}
           </Router>
         </UserProvider>     
       
