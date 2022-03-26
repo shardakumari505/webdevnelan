@@ -13,12 +13,12 @@ const Dashboard = () => {
     return(<div className='dashboard-home-page-container'> 
       <div className='dashboard-page-container'>
           <div className="home-page-text1">
-            <h2 className="home-text-title">{loggedIn === true?'Dhanyawad, Toh chaliye shuru krte hai :)':'A Platform   for   Developers to connect and code :)'}</h2>
+            <h2 className="home-text-title">{loggedIn === true?'A Platform   for   Developers to connect and code :)':'A Platform   for   Developers to connect and code :)'}</h2>
           </div>
           <div className="home-page-lottie-animation"><lottie-player
             src="https://assets5.lottiefiles.com/packages/lf20_oyi9a28g.json"
             background="transparent"
-            speed="2"
+            speed="1"
             loop
             autoplay
           ></lottie-player></div>
