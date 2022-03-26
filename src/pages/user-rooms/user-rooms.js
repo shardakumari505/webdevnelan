@@ -27,8 +27,11 @@ const UserRooms = () => {
             <div className='user-room-task-remaining'><ToDo /></div>
             
             <div className='user-room-music-player'>
-                <div className='user-room-music-player-title'>Music Player</div>
-                <div className='user-room-music-player-card'></div>
+                <div className='user-room-music-player-title'>Playing...</div>
+                <div className='user-room-music-player-card'><img className='user-room-music-player-img' src="https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" /></div>
+                <div className='user-room-music-player-options'>
+                    <div className='user-room-music-player-join-option'>Join and Listen</div>
+                </div>
             </div>
         </div>
     </div>)

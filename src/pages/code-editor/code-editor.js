@@ -13,7 +13,7 @@ import "codemirror/theme/eclipse.css";
 
 
 const CodeEditor = () => {
-    return (<div>
+    return (<div className='code-editor-page'>
 
             <div className='code-editor-first-part'>
             <div className='code-editor-first-part-left'>

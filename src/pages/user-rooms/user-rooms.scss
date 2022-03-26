@@ -1,7 +1,7 @@
 .user-room-page{
     height: auto;
     width: 100%;
-    // background-color: aqua;
+    background-color: aqua;
     display: flex;
     flex-direction: row;
 }
@@ -15,6 +15,7 @@
 }
 .user-room-left-wish{
     margin-left: 5%;
+    width: 90%;
     margin-top: 20vh;
     display: flex;
     flex-direction: row;
@@ -61,12 +62,12 @@
 .user-room-left-chat-card{
     margin-top: 2vh;
     height: 50vh;
-    width: 95%;
+    width: 90%;
     background-color: gray;
 }
 .user-room-left-bottom-options{
     height: 8vh;
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     margin-left: 5%;
@@ -93,7 +94,7 @@
 .user-room-right{
     height: auto;
     width: 30%;
-    background-color: bisque;
+    // background-color: bisque;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -103,6 +104,7 @@
 .user-room-task-remaining{
     height: 60vh;
     margin-top: 20vh;
+    margin-right: 5%;
     width: 28vw;
     display: flex;
     flex-direction: column;
@@ -115,22 +117,54 @@
     font-size: 1.5rem;
 }
 .user-room-music-player{
-    height: 35vh;
-    width: 20vw;
+    height: 40vh;
+    width: 100%;
+    margin-top: 5vh;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     background-color: palegreen;
+    background: linear-gradient(to right, #FF6200, #FDB777);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px #000;
 }
 .user-room-music-player-title{
     font-size: 1.5rem;
 }
-.user-room-music-player-card{
+.user-room-music-player-card
+{
     margin-top: 2vh;
     height: 24vh;
     width: 12vw;
     border-radius: 20px;
     background-color: gray;
+}
+.user-room-music-player-img{
+    height: 24vh;
+    width: 12vw;
+    border-radius: 20px;
+    background-color: gray;
+    object-fit: cover;
+}
+.user-room-music-player-options{
+    display: flex;
+    margin-top: 2vh;
+}
+.user-room-music-player-join-option{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d66d0;
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+    outline: none;
+    border: none;
 }
