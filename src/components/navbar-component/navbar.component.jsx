@@ -3,7 +3,7 @@ import './navbar.styles.scss';
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
 import { UserContext } from '../../userauth';
-
+import Music from '../music-player/music-player'
 
 const Navbar = () => {
     const [loggedIn,setloggedIn] = useContext(UserContext);
@@ -34,6 +34,8 @@ const Navbar = () => {
     
     return(
             <div className='navbar-container'>
+                <Music/>
+        
                 <h1><NavLink className='navbar-logo' to="/"> &lt; DevIN &gt; </NavLink></h1>
                     <nav>                        
                         <ul id='menu-list' className= {MenuList===true?'menu-list':'menu-list-closed'}>

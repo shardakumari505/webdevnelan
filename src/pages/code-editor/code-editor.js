@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import UserRooms from '../user-rooms/user-rooms';
 import { Controlled as CodeMirror } from "react-codemirror2";
 import "codemirror/lib/codemirror.css";
+import Editor1 from '../../components/Editor/editor';
 
 // Themes
 import "codemirror/theme/material.css";
@@ -16,33 +17,28 @@ import "codemirror/theme/eclipse.css";
 
 const CodeEditor = () => {
     return (<div className='code-editor-page'>
-
+            <div className='code-editor-container'>
             <div className='code-editor-first-part'>
             <div className='code-editor-first-part-left'>
-                <div className='code-editor-first-part-left-options'>File</div>
-                <div className='code-editor-first-part-left-options'>Run</div>
-                <div className='code-editor-first-part-left-options'>Add Members</div>
-                <div className='code-editor-first-part-left-options'>Remove Members</div>
+               Code Editor
             </div>
-            <div className='code-editor-first-part-right'>
-                <div className='code-editor-first-part-right-text'>Close editor</div>
-                <div className='code-editor-first-part-right-close-button'><img className='close-editor-right-button-img' src='https://cdn-icons-png.flaticon.com/512/1828/1828665.png' /></div>
-            </div>
+            
         </div>
         <div className='code-editor-second-part'>
             <div className='code-editor-left'>
-                <div className='code-editor-left-content'></div>
+                <Editor1/>
+                {/* <div className='code-editor-left-content'></div> */}
             </div>
             <div className='code-editor-right'>
                 <div className='code-editor-user-1'>
-                    <div className='code-editor-user1-img'></div>
+                    <div className='code-editor-user1-img'> <img src='https://shrimpspotmedia.s3.amazonaws.com/monthly_11_2014/post-352-0-31292200-1415988510.gif' alt='user1'/></div>
                 </div>
                 <div className='code-editor-user-2'>
-                    <div className='code-editor-user2-img'></div>
+                    <div className='code-editor-user2-img'><img src='https://media2.giphy.com/media/KAvlM8rLYEXkLTMMM5/200.gif' alt='user2'/></div>
                 </div>
                 <div className='code-editor-team-message'>
                     <div className='code-editor-message-title'>Team Messages</div>
-                    <div className='code-editor-message-card'></div>
+                    <div className='code-editor-message-card'><img src='https://i.gifer.com/7plQ.gif' alt='message loading'/></div>
                 </div>
                 <div className='code-editor-right-options'>
                     <div className='code-editor-video-call'>Video Call</div>
@@ -50,6 +46,7 @@ const CodeEditor = () => {
                 </div>
             </div>
     </div> 
+    </div>
     </div>)
 }
 

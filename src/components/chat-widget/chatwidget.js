@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import { Widget, addResponseMessage } from 'react-chat-widget';
-
 import 'react-chat-widget/lib/styles.css';
 import './chatwidget.scss';
-
 import logo from './logo.jpg';
 
 function ChatWidget() {
@@ -21,11 +19,14 @@ function ChatWidget() {
         <Widget
           handleNewUserMessage={handleNewUserMessage}
           profileAvatar={logo}
-          title="My new awesome title"
-          subtitle="And my cool subtitle"
+          title="Team Messages"
+          subtitle=""
+          toggleWidget = {true}
+      
         />
       </div>
     );
 }
 
 export default ChatWidget;
+
