@@ -1,4 +1,6 @@
-# ![#162e29] DevIN
+# DevIN
+
+DevIN is a platform for developers to connect with each other 
 
 # Getting Started with Create React App
 
