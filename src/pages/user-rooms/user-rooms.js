@@ -2,6 +2,7 @@ import React from 'react';
 import './user-rooms.scss';
 import ToDo from '../../components/to-do-list/to-do';
 import Music from '../../components/music-player/music-player';
+import ChatWidget from '../../components/chat-widget/chatwidget';
 
 
 const UserRooms = () => {
@@ -28,7 +29,9 @@ const UserRooms = () => {
                         <div className='user-room-chat-card-options'><img className='user-room-chat-card-options-img' src='https://cdn-icons.flaticon.com/png/512/5124/premium/5124626.png?token=exp=1648336382~hmac=1c5cb27f05a661c1e6f2661a6632f7af' /></div>
                         <div className='user-room-chat-card-options'><img className='user-room-chat-card-options-img' src='https://cdn-icons.flaticon.com/png/512/5718/premium/5718983.png?token=exp=1648336462~hmac=4b4226d6cc0fb5ed8542766d7a77f35b' /></div>
                     </div>
-                    <div className='user-room-chat-card-centre'></div>
+                    <div className='user-room-chat-card-centre'>
+                        <ChatWidget />
+                    </div>
                     <div className='user-room-chat-card-bottom'>
                         <div className='user-room-chat-card-bottom-option-msg'><input className='user-room-msg-input' type='text' placeholder='Type a message' /></div>
                         <div className='user-room-chat-card-bottom-options'><img className='user-room-chat-card-bottom-options-img' src='https://cdn-icons.flaticon.com/png/512/3634/premium/3634313.png?token=exp=1648336563~hmac=2216b38a1d5aa85f12e2ea8968f97078' /></div>

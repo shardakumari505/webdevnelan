@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react';
 import ReactJkMusicPlayer from 'react-jinke-music-player';
 import 'react-jinke-music-player/assets/index.css';
+import './music-player.scss';
 
 const Music = () => {
     const [audioLists, setAudioLists] = useState([

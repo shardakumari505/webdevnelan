@@ -1,0 +1,15 @@
+  .rcw-message > .rcw-response {
+    background-color: white;
+    color: black;
+  }
+  .rcw-conversation-container{
+      margin-right: 13.5vw;
+      height: 58vh;
+      width: 51vw;
+  }
+.rcw-widget-container{
+    margin-right: 10vw;
+}
+.rcw-widget-container > .rcw-conversation-container{
+    margin: 5vw;
+}
