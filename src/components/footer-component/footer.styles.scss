@@ -4,10 +4,9 @@
     
 }
 
-.footer-container{
+.footer-container1{
     width: 100%;
     height:10vh;
- 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,9 +26,9 @@
     height: 10vh;
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    text-align: center;
+    text-align: right;
     // background-color: aquamarine;
 }
 .footer-container-left-title{
@@ -41,4 +40,5 @@
     color: var(--textcol);
     font-family: Archivo Black;
     font-size: 1rem;
+    margin-right: 10vw;
 }
