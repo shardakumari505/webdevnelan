@@ -42,10 +42,6 @@ npm start       #Starting dev server
 
 ## Screenshots
 
-### Navbar
-![navbar](https://user-images.githubusercontent.com/78858121/160277692-c2f86d4d-7016-4013-a451-d85b6444b4a7.png)
-![responsive navbar](https://user-images.githubusercontent.com/78858121/160278167-c9272399-e981-49e0-93ba-d7fa0f214adc.png)
-
 ### SignUp Page
 ![register page](https://user-images.githubusercontent.com/78858121/160277693-b1b2ebbd-6dff-4ff7-af46-599b871a5f84.png)
 
