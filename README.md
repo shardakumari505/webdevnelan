@@ -43,8 +43,23 @@ npm start       #Starting dev server
 ## Screenshots
 
 <p align="center">
-
+![navbar](https://user-images.githubusercontent.com/78858121/160277692-c2f86d4d-7016-4013-a451-d85b6444b4a7.png)
+![register page](https://user-images.githubusercontent.com/78858121/160277693-b1b2ebbd-6dff-4ff7-af46-599b871a5f84.png)
+![signinpage](https://user-images.githubusercontent.com/78858121/160277695-d28d25e7-3c48-4e36-bb9d-c594848a9564.png)
+![editor home](https://user-images.githubusercontent.com/78858121/160277685-29b95985-8818-4c71-8eaf-26dbc835aa1d.png)
+![code editor](https://user-images.githubusercontent.com/78858121/160277684-8a30322e-cc1e-481d-9441-84ba9bc975b2.png)
+![user room home](https://user-images.githubusercontent.com/78858121/160277699-1185f880-96c6-4b3d-9ce6-3dcc5f52ba75.png)
+![user room](https://user-images.githubusercontent.com/78858121/160277701-78ab3798-1fab-452c-88b7-0cf6c3835ec6.png)
+![task home](https://user-images.githubusercontent.com/78858121/160277696-cf38d934-9d17-4608-a74d-952c72898883.png)
+![task list](https://user-images.githubusercontent.com/78858121/160277698-46c23430-505a-442a-9ab6-89b5b126b003.png)
+![ac and vc](https://user-images.githubusercontent.com/78858121/160277676-cd9571ed-0ab4-4f2a-836f-66248c4c3353.png)
+![music player](https://user-images.githubusercontent.com/78858121/160277688-383f63fa-675b-4701-9e75-920f47f9488c.png)
+![chat](https://user-images.githubusercontent.com/78858121/160277683-2b740012-3c36-4b39-8d44-f1ace9ece175.png)
+![blog home](https://user-images.githubusercontent.com/78858121/160277680-bda05c7b-0205-413c-827e-7e6e1df8614a.png)
+![blog page](https://user-images.githubusercontent.com/78858121/160277681-c2530ea5-ffd2-4803-a804-81d9555dc1a0.png)
+ 
 </p>
+
 
 ## Authors
 
