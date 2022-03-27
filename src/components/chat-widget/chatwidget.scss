@@ -6,6 +6,7 @@
       margin-right: 13.5vw;
       height: 40vh;
       width: 51vw;
+      color: black;
   }
 .rcw-widget-container{
     // margin-right: 10vw;
@@ -13,10 +14,15 @@
     position: absolute;
     bottom:20vh;
     right: 3vw;
+    color: black;
 }
 .rcw-widget-container > .rcw-conversation-container{
     margin: 5vw;
+    color: black;
     }
 input{
+  color: black;
+}
+textarea{
   color: black;
 }

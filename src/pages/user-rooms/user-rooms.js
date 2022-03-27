@@ -20,6 +20,9 @@ const UserRooms = () => {
                 </div>
             </div>
             <div className='user-room-centre'>
+                <div className='user-room-right-text'>
+                    Create Tasks , Chat with your Team and Enjoy with your favorite Music! 
+                </div>
             
                         <ChatWidget />
                     

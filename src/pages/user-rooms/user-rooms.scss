@@ -1,5 +1,5 @@
 .user-room-page{
-    height: auto;
+    height: 100vh;
     width: 100%;
     background-color: #000222;
     background-image: 
@@ -37,6 +37,7 @@
 }
 .user-room-chamber-title{
     font-size: 2rem;
+    font-weight: bold;
 }
 .user-room-bottom-container{
     height: 80vh;
@@ -181,4 +182,10 @@
     background-color: rgba(17, 25, 40, 0.47);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.user-room-right-text{
+    width: 50%;
+    line-height: 8.5vh;
+    font-size: 3rem;
+    font-weight: bold;
 }
