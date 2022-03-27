@@ -36,8 +36,9 @@
     font-size: 2rem;
     color: var(--textcol);
 }
-.blog-page-top form{
-    width: 100%;
+.blog-page-left form{
+    width: 90%;
+    // background-color: aquamarine;
 
 }
 .blog-page-top form textarea{
@@ -46,7 +47,7 @@
 }
 .blog-text-input{
     height: 60vh;
-    width: 90%;
+    width: 100%;
     margin-top: 2vh;
     margin-left: 10%;
     display: grid;
