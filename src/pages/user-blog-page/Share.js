@@ -3,11 +3,14 @@ import './Share.scss';
 import { NavLink } from 'react-router-dom';
 import Blogtop from './blogtop.js';
 import More from './more.png';
+import Navbar from '../../components/navbar-component/navbar.component';
 
 
 
 const Share = () => {
-    return (<div className='ShareBlogpage'>
+    return (<div className='shareblogpagecontainer'>
+        <Navbar />
+    <div className='ShareBlogpage'>
         <div className='blog-page-left'>
             <div className='blog-page-top'>Write your Blog Here</div>
             <div className='blog-text-input'>
@@ -32,6 +35,7 @@ const Share = () => {
                 <div className='blog-page-right-bottom-button'>Read more Blogs</div>
             </div>
         </div>
+    </div>
     </div>)
 }
 

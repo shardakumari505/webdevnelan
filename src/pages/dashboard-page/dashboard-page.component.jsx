@@ -1,6 +1,7 @@
 import React,{useContext} from 'react';
 import './dashboard-page.styles.scss';
 import { UserContext } from '../../userauth';
+import Navbar from '../../components/navbar-component/navbar.component';
 import Collab from '../../components/features/collab.components';
 import TodoComponent from '../../components/features/todo.components';
 import BlogComponent from '../../components/features/blog.components';
@@ -11,6 +12,7 @@ const Dashboard = () => {
   const [loggedIn,setloggedIn] = useContext(UserContext);
 
     return(<div className='dashboard-home-page-container'> 
+    <Navbar />
       <div className='dashboard-page-container'>
           <div className="home-page-text1">
             <h2 className="home-text-title">{loggedIn === true?'A Platform   for   Developers to connect and code :)':'A Platform   for   Developers to connect and code :)'}</h2>
@@ -24,9 +26,9 @@ const Dashboard = () => {
           ></lottie-player></div>
       </div>
       <div className=''><Collab /></div>
-      <div className=''><TodoComponent /></div>
       <div className=''><RoomsComponents /></div>
       <div className=''><BlogComponent /></div>
+      <div className=''><TodoComponent /></div>
       <div className=''><Footer /></div>
        
          

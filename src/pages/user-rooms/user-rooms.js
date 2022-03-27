@@ -1,5 +1,6 @@
 import React from 'react';
 import './user-rooms.scss';
+import Navbar from '../../components/navbar-component/navbar.component';
 import ToDo from '../../components/to-do-list/to-do';
 import ChatWidget from '../../components/chat-widget/chatwidget';
 
@@ -8,7 +9,7 @@ import ChatWidget from '../../components/chat-widget/chatwidget';
 const UserRooms = () => {
     return (
     <div className='user-room-page'>
-      
+        <Navbar />
         <div className='user-room-your-chamber'>
             <div className='hamburger-menu-icon-divs'><img className='hamburger-menu-icon-img' src='https://cdn-icons.flaticon.com/png/512/5949/premium/5949501.png?token=exp=1648341605~hmac=8842ca55e53329ed18019ec6f6d559c0' /></div>
             <div className='user-room-chamber-title'>Your Chamber</div>

@@ -46,34 +46,11 @@ const Navbar = () => {
                                 <NavLink className='' to="/techblog">Tech Blogs</NavLink>
                             </li>
                             <li>
-                                <NavLink className='' to="/userrooms">Rooms</NavLink>
+                                <NavLink className='' to="/userrooms">Virtual Chamber</NavLink>
                             </li>
-                            <li>
-                                <Link
-                                    activeClass="active"
-                                    to="about"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={500}
-                                >
-                                    Repos
-                                </Link>
-                            </li>
+                            
                             <li>
                                 <NavLink className='' to="/codeeditor">Code Editor</NavLink>
-                            </li>
-                            <li>
-                                <Link
-                                    activeClass="active"
-                                    to="contact"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={500}
-                                >
-                                    Friends
-                                </Link>
                             </li>
                     
                     <li> {loggedIn===false?

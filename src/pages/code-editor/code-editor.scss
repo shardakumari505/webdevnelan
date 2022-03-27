@@ -1,20 +1,23 @@
-.code-editor-page{
-    height: 120vh;
-    width: 100%;
-    margin: 20%, 5%;
+.code-editor-page-container{
     background-color: #000222;
     background-image: 
         radial-gradient(at 47% 33%, hsl(265.71, 62%, 15%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(237.62, 100%, 19%) 0, transparent 55%);
+}
+.code-editor-page{
+    height: 120vh;
+    width: 100%;
+    margin: 5%, 5%;
+    
     display: flex;
     flex-direction: column;
 }
 .code-editor-container{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .code-editor-first-part{
-    height: 5vh;
-    margin-top: 10vh;
+    // height: 5vh;
+    // margin-top: 10vh;
     width: 100%;
     // background-color: aqua;
     display: flex;

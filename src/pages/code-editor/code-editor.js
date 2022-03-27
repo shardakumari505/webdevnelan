@@ -1,5 +1,6 @@
 import React from 'react';
 import './code-editor.scss';
+import Navbar from '../../components/navbar-component/navbar.component';
 import { NavLink } from 'react-router-dom';
 import UserRooms from '../user-rooms/user-rooms';
 import { Controlled as CodeMirror } from "react-codemirror2";
@@ -16,7 +17,9 @@ import "codemirror/theme/eclipse.css";
 
 
 const CodeEditor = () => {
-    return (<div className='code-editor-page'>
+    return (<div className='code-editor-page-container'>
+        <Navbar />
+    <div className='code-editor-page'>
             <div className='code-editor-container'>
             <div className='code-editor-first-part'>
             <div className='code-editor-first-part-left'>
@@ -46,6 +49,7 @@ const CodeEditor = () => {
                 </div>
             </div>
     </div> 
+    </div>
     </div>
     </div>)
 }

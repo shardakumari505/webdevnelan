@@ -1,12 +1,17 @@
+.shareblogpagecontainer{
+    background-color: #000222;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(265.71, 62%, 15%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(237.62, 100%, 19%) 0, transparent 55%);
+}
 .ShareBlogpage {
     width: 100%;
     height: 100vh;
     /*padding: 6rem 1rem;*/
-    background-color: #000222;
     display: flex;
-    background-image: 
-        radial-gradient(at 47% 33%, hsl(265.71, 62%, 15%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(237.62, 100%, 19%) 0, transparent 55%);
+}
+.share-blog-navbar{
+    background-color: aqua;
 }
 .blog-page-left{
     height: 80vh;

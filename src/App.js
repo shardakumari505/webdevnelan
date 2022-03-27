@@ -8,7 +8,6 @@ import Navbar from './components/navbar-component/navbar.component';
 import Footer from './components/footer-component/footer.component';
 import SigninPage from './pages/signin-page/signin-page';
 import SignupPage from './pages/signup-page/signup-page';
-import UserHomePage from './pages/user-home/user-home-page';
 import UserRooms from './pages/user-rooms/user-rooms';
 import CodeEditor from './pages/code-editor/code-editor';
 import Collab from './components/features/collab.components'
@@ -28,12 +27,11 @@ class App extends Component {
       <div className="App">
         <UserProvider>
           <Router>
-            <Navbar/>
+            {/* <Navbar/> */}
               <Routes>
                   <Route path="/" element={<Dashboard />} />
                   <Route path="/signin" element={<SigninPage/>} />
                   <Route path="/signup" element={<SignupPage/>} />
-                  <Route path="/userhome" element={<UserHomePage/>} />
                   <Route path="/userrooms" element={<UserRooms/>} />
                   <Route path="/codeeditor" element={<CodeEditor/>} />
                   <Route path="/collab" element={<Collab/>} />

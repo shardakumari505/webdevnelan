@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant:ital,wght@1,300;1,400;1,500&family=Montserrat:wght@300;400;500&display=swap');
 .dashboard-home-page-container{
     // padding: 2px 2vw;
+    height: auto;
     background-color: #000222;
     background-image: 
         radial-gradient(at 47% 33%, hsl(265.71, 62%, 15%) 0, transparent 59%), 
@@ -8,7 +9,7 @@
 }
 .dashboard-page-container{
     display: flex;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     flex-direction: row;
     // background-color: #000222;
@@ -19,7 +20,7 @@
 .home-page-text1{
     z-index: 10;
     height: 90vh;
-    margin-top: 10vh;
+    // margin-top: 10vh;
     width: 45%;
     margin-left: 2%;
     padding-left: 5vw;
@@ -52,6 +53,6 @@
 .home-page-lottie-animation{
     width: 50%;
     height: 50vh;
-    margin-top: 35vh;
+    margin-top: 25vh;
     // background-color: aquamarine;
 }
