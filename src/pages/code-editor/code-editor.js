@@ -44,8 +44,8 @@ const CodeEditor = () => {
                     <div className='code-editor-message-card'><img src='https://i.gifer.com/7plQ.gif' alt='message loading'/></div>
                 </div>
                 <div className='code-editor-right-options'>
-                    <div className='code-editor-video-call'>Video Call</div>
-                    <div className='code-editor-audio-call'>Audio Call</div>
+                    <div className='code-editor-video-call' onClick={()=> alert("3 din mein isse jyada naa ho payega 🥲")} >Video Call</div>
+                    <div className='code-editor-audio-call' onClick={()=> alert("3 din mein bacche ki jaan loge kya? 🥺")}>Audio Call</div>
                 </div>
             </div>
     </div> 

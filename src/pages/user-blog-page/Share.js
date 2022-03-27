@@ -13,12 +13,15 @@ const Share = () => {
     <div className='ShareBlogpage'>
         <div className='blog-page-left'>
             <div className='blog-page-top'>Write your Blog Here</div>
-            <div className='blog-text-input'>
+            <form>            
+                <div className='blog-text-input'>
                 <textarea className='blog-share'  type='text'  name='blogtext' id='blogtext' placeholder='share your experience.............' required></textarea>
                 <div className='blog-share-bottom'>
-                    <div className='blog-bottom-submit'><button className='blog-submit-button'>Submit</button></div>
+                <div className='blog-bottom-submit' type='submit'><button className='blog-submit-button' onClick={()=> alert("Thank You for Submiting Your Blog")}>Submit</button></div>
                 </div>
             </div>
+            </form>
+
         </div>
         <div className='blog-page-right'>
             <div className='blog-page-right-top'>
@@ -32,7 +35,7 @@ const Share = () => {
             </div>
             <div className='blog-page-right-centre'>Read and Write Blogs</div>
             <div className='blog-page-right-bottom'>
-                <div className='blog-page-right-bottom-button'>Read more Blogs</div>
+                <div className='blog-page-right-bottom-button' onClick={()=> alert("This section will be updated in our next update!!")}>Read more Blogs</div>
             </div>
         </div>
     </div>
