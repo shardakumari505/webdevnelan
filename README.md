@@ -42,7 +42,6 @@ npm start       #Starting dev server
 
 ## Screenshots
 
-<p align="center">
 ![navbar](https://user-images.githubusercontent.com/78858121/160277692-c2f86d4d-7016-4013-a451-d85b6444b4a7.png)
 ![register page](https://user-images.githubusercontent.com/78858121/160277693-b1b2ebbd-6dff-4ff7-af46-599b871a5f84.png)
 ![signinpage](https://user-images.githubusercontent.com/78858121/160277695-d28d25e7-3c48-4e36-bb9d-c594848a9564.png)
@@ -58,7 +57,6 @@ npm start       #Starting dev server
 ![blog home](https://user-images.githubusercontent.com/78858121/160277680-bda05c7b-0205-413c-827e-7e6e1df8614a.png)
 ![blog page](https://user-images.githubusercontent.com/78858121/160277681-c2530ea5-ffd2-4803-a804-81d9555dc1a0.png)
  
-</p>
 
 
 ## Authors
