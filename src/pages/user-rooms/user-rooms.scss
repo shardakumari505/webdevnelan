@@ -16,8 +16,9 @@
 // }
 .user-room-your-chamber{
     height: 8vh;
-    width: 100%;
-    margin-top: 12vh;
+    width: 91%;
+    margin-left: 9%;
+    // margin-top: 12vh;
     // background-color: bisque;
     color: var(--textcol);
     display: flex;
@@ -39,7 +40,8 @@
 }
 .user-room-bottom-container{
     height: 80vh;
-    width: 100%;
+    width: 95%;
+    margin-left: 5%;
     display: flex;
     flex-direction: row;
 }

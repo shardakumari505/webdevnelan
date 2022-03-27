@@ -4,11 +4,15 @@
   }
   .rcw-conversation-container{
       margin-right: 13.5vw;
-      height: 58vh;
+      height: 40vh;
       width: 51vw;
   }
 .rcw-widget-container{
-    margin-right: 10vw;
+    // margin-right: 10vw;
+    // margin-bottom: 7vh;
+    position: absolute;
+    bottom:20vh;
+    right: 3vw;
 }
 .rcw-widget-container > .rcw-conversation-container{
     margin: 5vw;

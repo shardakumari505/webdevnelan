@@ -6,7 +6,7 @@ import logo from './logo.jpg';
 
 function ChatWidget() {
   useEffect(() => {
-    addResponseMessage('Welcome to this **awesome** chat!');
+    addResponseMessage('Welcome to **DevIN** ');
   }, []);
 
   const handleNewUserMessage = (newMessage) => {
