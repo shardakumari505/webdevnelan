@@ -1,5 +1,6 @@
 # DevIN
 [![Cloudflare Status](https://api.netlify.com/api/v1/badges/e023e0c8-0e17-430a-a6b3-75e81948517c/deploy-status)]()
+[![badge-npm](https://img.shields.io/npm/v/cloudflare.svg?style=flat-square)]()
 <img src="https://img.shields.io/badge/License-MIT-blue.svg">
 
 DevIN is a platform for developers to connect with each other 
