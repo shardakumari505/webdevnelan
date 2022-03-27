@@ -1,13 +1,16 @@
 .code-editor-page{
-    height: auto;
+    height: 120vh;
     width: 100%;
-    margin-top: 0px;
+    margin: 20%, 5%;
     background-color: #000222;
     background-image: 
         radial-gradient(at 47% 33%, hsl(265.71, 62%, 15%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(237.62, 100%, 19%) 0, transparent 55%);
     display: flex;
     flex-direction: column;
+}
+.code-editor-container{
+  margin-top: 50px;
 }
 .code-editor-first-part{
     height: 5vh;
@@ -21,26 +24,15 @@
 .code-editor-first-part-left{
     display: flex;
     flex-direction: row;
-    margin-left: 2%;
+    margin-left: 6%;
     align-items: center;
-}
-.code-editor-first-part-left-options{
-    margin-right: 2vw;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom:8px ;
     color: var(--textcol);
 }
-.code-editor-first-part-right{
-    margin-right: 2vw;
-    display: flex;
-    align-items: center;
-    color: var(--textcol);
-}
-.code-editor-first-part-right-close-button{
-    height: 5vh;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
 .close-editor-right-button-img{
     height: 3vh;
     width: 5vw;
@@ -54,13 +46,15 @@
 }
 .code-editor-left{
     height: auto;
-    width: 80%;
+    width: 70%;
+    margin-left: 5%;
     margin-top: 0px;
     // background-color: aquamarine;
     display: flex;
     flex-direction: column;
     margin-bottom: 5vh;
-    // background-color: bisque;
+    background-color: black;
+    color: green;
 }
 .code-editor-left-content{
     height: 92vh;
@@ -70,6 +64,7 @@
 .code-editor-right{
     height: auto;
     margin-right: 0px;
+    margin-left: 2%;
     width: 20%;
     // background-color: bisque;
     display: flex;
@@ -84,32 +79,40 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background-color: #000222;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(263.53, 100%, 50%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(237.84, 100%, 49%) 0, transparent 55%);
+    margin-bottom: 8px;
     // background-color: salmon;
 }
-.code-editor-user1-img{
+.code-editor-user1-img img{
     height: 8vw;
     width: 8vw;
     border-radius: 4vw;
-    background-color: #a19c9c;
+    object-fit: cover;
+    
 }
 .code-editor-user-2{
     height: 25vh;
     width: 18vw;
-    margin-top: 1vh;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: gray;
-    // background-color: salmon;
+    background-color: #000222;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(263.53, 100%, 50%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(237.84, 100%, 49%) 0, transparent 55%);
 }
-.code-editor-user2-img{
+.code-editor-user2-img img{
     height: 8vw;
     width: 8vw;
     border-radius: 4vw;
-    background-color: #a19c9c;
+    object-fit: cover;
+   
 }
 .code-editor-team-message{
     height: 35vh;
@@ -129,7 +132,13 @@
 .code-editor-message-card{
     height: 28vh;
     width: 18vw;
-    background-color: gray;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.code-editor-message-card img{
+    height: 28vh;
+    width: 18vw;
+    object-fit: cover;
 }
 .code-editor-right-options{
     // background-color: seagreen;
